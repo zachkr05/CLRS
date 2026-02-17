@@ -14,8 +14,13 @@ int main(){
 	}		
 	std::cout << std::endl;
 	
-	sort(unsorted_arr);
+	unsorted_arr = sort(unsorted_arr);
 
+	for (auto& num : unsorted_arr){
+		std::cout << num << " ";
+	}		
+	std::cout << std::endl;
+	
 	return 0;
 
 }
