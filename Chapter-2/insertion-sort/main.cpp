@@ -14,8 +14,10 @@ int main(){
 	}		
 	std::cout << std::endl;
 	
-	unsorted_arr = sort(unsorted_arr);
+	unsorted_arr = sort_decreasing(unsorted_arr);
 
+
+	std::cout << "Sorted Array: " << std::endl;
 	for (auto& num : unsorted_arr){
 		std::cout << num << " ";
 	}		
